@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using ZwajApp.API.Model;
+using ZwajApp.API.Models;
 
 namespace ZwajApp.API.Data
 {
@@ -8,5 +8,7 @@ namespace ZwajApp.API.Data
         public DataContext(DbContextOptions<DataContext> options):base(options){}
   
         public DbSet<Value> Values { get; set; }
+        public DbSet<User> Users {get; set;}
     }
+
 }

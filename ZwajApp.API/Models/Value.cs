@@ -1,4 +1,4 @@
-namespace ZwajApp.API.Model
+namespace ZwajApp.API.Models
 {
     public class Value
     {
